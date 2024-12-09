@@ -1,0 +1,101 @@
+{
+    "projectId": "64816243e019cd985e39",
+    "projectName": "e-commerce-app",
+    "functions": [
+        {
+            "$id": "6481c1beb8f0b22e9f22",
+            "name": "addToCart",
+            "runtime": "node-16.0",
+            "path": "functions/addToCart",
+            "entrypoint": "src/index.js",
+            "ignore": [
+                ".env",
+                "node_modules",
+                ".npm"
+            ],
+            "execute": [],
+            "events": [],
+            "schedule": "",
+            "timeout": 240
+        },
+        {
+            "$id": "64821e77c781a802a8de",
+            "name": "removeFromCart",
+            "runtime": "node-16.0",
+            "path": "functions/removeFromCart",
+            "entrypoint": "src/index.js",
+            "ignore": [
+                "node_modules",
+                ".npm"
+            ],
+            "execute": [],
+            "events": [],
+            "schedule": "",
+            "timeout": 240
+        },
+        {
+            "$id": "64830d48bfddd8faf498",
+            "name": "createProduct",
+            "runtime": "node-16.0",
+            "path": "functions/createProduct",
+            "entrypoint": "src/index.js",
+            "ignore": [
+                "node_modules",
+                ".npm"
+            ],
+            "execute": [],
+            "events": [],
+            "schedule": "",
+            "timeout": 240
+        },
+        {
+            "$id": "64848637b48c391b5fe9",
+            "name": "verifySellerEmail",
+            "runtime": "node-16.0",
+            "path": "functions/verifySellerEmail",
+            "entrypoint": "src/index.js",
+            "ignore": [
+                "node_modules",
+                ".npm"
+            ],
+            "execute": [
+                "users"
+            ],
+            "events": [],
+            "schedule": "",
+            "timeout": 240
+        },
+        {
+            "$id": "6484aa715f4797678b8b",
+            "name": "addMemberToSellersTeam",
+            "runtime": "node-16.0",
+            "path": "functions/addMemberToSellersTeam",
+            "entrypoint": "src/index.js",
+            "ignore": [
+                "node_modules",
+                ".npm"
+            ],
+            "execute": [
+                "users"
+            ],
+            "events": [],
+            "schedule": "",
+            "timeout": 240
+        },
+        {
+            "$id": "6484bda7990cf42671a4",
+            "name": "createOrder",
+            "runtime": "node-16.0",
+            "path": "functions/createOrder",
+            "entrypoint": "src/index.js",
+            "ignore": [
+                "node_modules",
+                ".npm"
+            ],
+            "execute": [],
+            "events": [],
+            "schedule": "",
+            "timeout": 15
+        }
+    ]
+}
